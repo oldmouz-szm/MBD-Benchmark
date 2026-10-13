@@ -1,0 +1,12 @@
+{
+  "base_commit": "f6da7a31f5b60d490b68e9a3902a297f0df3b234",
+  "original_tracked_files": 936,
+  "byte_identical_original_files": 934,
+  "changed_original_paths": [
+    "README.md",
+    "SHA256SUMS"
+  ],
+  "original_observations": 450,
+  "original_observation_files": 900,
+  "all_original_data_unchanged": true
+}

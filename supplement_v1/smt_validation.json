@@ -1,0 +1,93 @@
+{
+  "kind": "fixed_generated_witness_validation",
+  "not_a_performance_experiment": true,
+  "z3_version": "5.1.0",
+  "checks": [
+    {
+      "instance_id": "nl_ring256_u16/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_001",
+      "encoding": "bv",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_001",
+      "encoding": "int",
+      "verified": true
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_001",
+      "encoding": "bv",
+      "verified": true
+    }
+  ],
+  "passed": true,
+  "auditor_sha256": "941087f94ec15002affc2c49fd530ccb52630120ecf5df09b5e264aafd6b4cba",
+  "source_hashes": {
+    "src/encoding.py": "ae4ebf0caf3550c6e94866d9d82a79b9d59a835b2baa40ab3634b284f072e2c8",
+    "src/circuit.py": "3cdcc3f22b401fd4fa6fcab2d656504306a73f9e4e74c9761bce0870707204da"
+  }
+}

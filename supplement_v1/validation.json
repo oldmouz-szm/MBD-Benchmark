@@ -1,0 +1,29 @@
+{
+  "dataset": "ArithDiag-Supplement8-v1",
+  "passed": true,
+  "circuits": 8,
+  "observations": 144,
+  "physical_fault_configurations": 48,
+  "integer_bit_format_pairs": 144,
+  "gate_fault_observation_replays": 144,
+  "locally_active_component_observations": 8587,
+  "healthy_library_vectors": 1904,
+  "faulted_component_vectors": 10800,
+  "independent_replay": {
+    "method": "Icarus Verilog compositional gate replay at actual propagated component inputs",
+    "module_vectors": {
+      "u_arrmul16": 3962,
+      "u_arrmul32": 1919,
+      "u_arrmul8": 488,
+      "u_rca16": 1406,
+      "u_rca32": 2252,
+      "u_rca64": 731,
+      "u_rca8": 1946
+    },
+    "total_vectors": 12704,
+    "passed": true,
+    "version": "Icarus Verilog version 12.0 (stable) ()"
+  },
+  "validator_sha256": "e51ab67cbf741ad2733b06b62b0b44e46405538558096da7ac4e7261c224c329",
+  "generator_sha256": "a770bfc7a4bb41be7c95afc70374fffb74e255c270ec1492dfba6178bcb31290"
+}

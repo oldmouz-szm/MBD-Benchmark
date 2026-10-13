@@ -1,4 +1,36 @@
-# MBD-Benchmark: CAIQ-Arith10-v1
+# MBD-Benchmark
+
+**18 circuits · 198 fixed physical fault configurations · 594 single-observation
+diagnosis instances**, distributed as two separately frozen datasets:
+
+| Dataset | Directory | Circuits | Fault configurations | Observations |
+|---|---|---:|---:|---:|
+| Original CAIQ-Arith10-v1 | repository root | 10 | 150 | 450 |
+| [ArithDiag-Supplement8-v1](supplement_v1/README.md) | `supplement_v1/` | 8 | 48 | 144 |
+
+The original circuit, library, observation, configuration and instance files are
+unchanged from [v1.0.0](https://github.com/oldmouz-szm/MBD-Benchmark/tree/v1.0.0).
+The supplement adds controlled ring/mesh size and width variants, cascaded
+multipliers, and a nonlocal network containing square and cross-product terms.
+Use [datasets.json](datasets.json) to select a dataset root, or
+[all_instances.json](all_instances.json) for all 594 repository-relative entries.
+For existing runners, pass `supplement_v1` as the dataset root to run the new 144
+instances. The root `instances.json` continues to describe only the original 450.
+
+**Compatibility:** all supplementary observations pass gate replay and exact
+integer-model checks. The audited ArithDiag native build does not pass its input
+equivalence audit on the 18 instances of `nl_mesh24x24_u16` because some Big-M
+coefficients exceed its exact numeric representation. Keep these valid data;
+fix and revalidate that solver's numeric interface before scoring those runs.
+This limitation and the tested source hashes are recorded in the supplement.
+Data validation does not assert that any method solves an instance within a
+particular budget, or establish a reference optimum.
+
+Generation and validation tools are in [tools/](tools/). They do not call a
+diagnosis solver to select observations. See the supplement README for the
+generation, validation and source-provenance details.
+
+## Original frozen dataset: CAIQ-Arith10-v1
 
 A frozen benchmark for model-based diagnosis of arithmetic circuits at the
 **whole-component level**.

@@ -1,0 +1,1294 @@
+{
+  "exact_original_models": 144,
+  "bit_format_models": 144,
+  "native_audits": [
+    {
+      "instance_id": "nl_ring256_u16/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u16/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring512_u16/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_ring256_u8/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u8/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh32x32_u8/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_001",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 58,
+      "numeric_mismatch_count": 149,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_001",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 58,
+      "numeric_mismatch_count": 149,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_002",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 68,
+      "numeric_mismatch_count": 131,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_002",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 68,
+      "numeric_mismatch_count": 131,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_003",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 60,
+      "numeric_mismatch_count": 140,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_003",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 60,
+      "numeric_mismatch_count": 140,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_004",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 53,
+      "numeric_mismatch_count": 132,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_004",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 53,
+      "numeric_mismatch_count": 132,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_005",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 74,
+      "numeric_mismatch_count": 136,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_005",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 74,
+      "numeric_mismatch_count": 136,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_006",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 73,
+      "numeric_mismatch_count": 135,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_006",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 73,
+      "numeric_mismatch_count": 135,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_007",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 66,
+      "numeric_mismatch_count": 128,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_007",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 66,
+      "numeric_mismatch_count": 128,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_008",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 76,
+      "numeric_mismatch_count": 148,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_008",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 76,
+      "numeric_mismatch_count": 148,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_009",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 69,
+      "numeric_mismatch_count": 138,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_009",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 69,
+      "numeric_mismatch_count": 138,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_010",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 72,
+      "numeric_mismatch_count": 154,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_010",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 72,
+      "numeric_mismatch_count": 154,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_011",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 81,
+      "numeric_mismatch_count": 151,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_011",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 81,
+      "numeric_mismatch_count": 151,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_012",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 91,
+      "numeric_mismatch_count": 156,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_012",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 91,
+      "numeric_mismatch_count": 156,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_013",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 71,
+      "numeric_mismatch_count": 149,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_013",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 71,
+      "numeric_mismatch_count": 149,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_014",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 78,
+      "numeric_mismatch_count": 166,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_014",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 78,
+      "numeric_mismatch_count": 166,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_015",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 68,
+      "numeric_mismatch_count": 145,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_015",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 68,
+      "numeric_mismatch_count": 145,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_016",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 63,
+      "numeric_mismatch_count": 132,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_016",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 63,
+      "numeric_mismatch_count": 132,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_017",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 71,
+      "numeric_mismatch_count": 138,
+      "mismatch_fields": [
+        "coefficients",
+        "rhs"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_017",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 71,
+      "numeric_mismatch_count": 138,
+      "mismatch_fields": [
+        "coefficients",
+        "rhs"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_018",
+      "structural": false,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 83,
+      "numeric_mismatch_count": 152,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_mesh24x24_u16/observations_018",
+      "structural": true,
+      "equivalent": false,
+      "numbers_exact": false,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 83,
+      "numeric_mismatch_count": 152,
+      "mismatch_fields": [
+        "coefficients"
+      ]
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_cascade256_u8/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_001",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_001",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_004",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_004",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_007",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_007",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_010",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_010",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_013",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_013",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_016",
+      "structural": false,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    },
+    {
+      "instance_id": "nl_nonlocal_square128_u8/observations_016",
+      "structural": true,
+      "equivalent": true,
+      "numbers_exact": true,
+      "mantissa_bits": 64,
+      "safe_bigm_roundings": 0,
+      "numeric_mismatch_count": 0,
+      "mismatch_fields": []
+    }
+  ],
+  "initialisations": 144,
+  "data_checks_passed": true,
+  "all_tested_native_inputs_equivalent": false,
+  "native_input_audits_passed": 84,
+  "native_input_audits_failed": 36,
+  "elapsed_s": 116.729,
+  "auditor_sha256": "3bac9abb0114162ffe256c69ed77a80367a9743f2f4d60dd60913a50a268f30c",
+  "source_hashes": {
+    "vendor/iqcqp_model.py": "675045b58844bb06403d8f62217418ad8d3732e65f129b6ac071ef545245e3bf",
+    "vendor/exact_verify.py": "11033dcd9a433a3e9231a4e8810773228e2743c622b05a32247c5df1337e8ba7",
+    "src/preprocess.py": "faa4cf7c88eae075263ad5bff9ef996ae9557ef744fdcbee68bf0fb1019e427f",
+    "src/model_io.py": "6e36e9de5a6f70b1f44c9a8b2cf38e89447f8521d4b763a71bf37f085d2a6745",
+    "native/ls-iqcqp/build/LS-IQCQP": "eb264297a5791021455a8738a551378bc73c4e725db750548ad6f586040ec3a0"
+  }
+}

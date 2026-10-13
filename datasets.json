@@ -1,0 +1,25 @@
+{
+  "repository_release": "1.1.0",
+  "circuits": 18,
+  "physical_fault_configurations": 198,
+  "observations": 594,
+  "datasets": [
+    {
+      "id": "CAIQ-Arith10-v1",
+      "root": ".",
+      "instances": "instances.json",
+      "circuits": 10,
+      "physical_fault_configurations": 150,
+      "observations": 450,
+      "original_commit": "f6da7a31f5b60d490b68e9a3902a297f0df3b234"
+    },
+    {
+      "id": "ArithDiag-Supplement8-v1",
+      "root": "supplement_v1",
+      "instances": "supplement_v1/instances.json",
+      "circuits": 8,
+      "physical_fault_configurations": 48,
+      "observations": 144
+    }
+  ]
+}

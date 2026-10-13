@@ -1,0 +1,488 @@
+{
+  "dataset": "ArithDiag-Supplement8-v1",
+  "seed": 20261013,
+  "physical_fault_configurations": 48,
+  "gate_sites": 5467,
+  "groups": [
+    {
+      "circuit": "nl_ring256_u16",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 16,
+      "injected_gate_count": 16,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 78,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u16",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 16,
+      "injected_gate_count": 16,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 28,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u16",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 16,
+      "injected_gate_count": 43,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 19,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u16",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 32,
+      "injected_gate_count": 32,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 348,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u16",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 32,
+      "injected_gate_count": 32,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 46,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u16",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 32,
+      "injected_gate_count": 82,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 37,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring512_u16",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 32,
+      "injected_gate_count": 32,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 167,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring512_u16",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 32,
+      "injected_gate_count": 32,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 50,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring512_u16",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 32,
+      "injected_gate_count": 82,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 44,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring512_u16",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 64,
+      "injected_gate_count": 64,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 364,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring512_u16",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 64,
+      "injected_gate_count": 64,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 102,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring512_u16",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 64,
+      "injected_gate_count": 167,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 78,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u8",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 16,
+      "injected_gate_count": 16,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 77,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u8",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 16,
+      "injected_gate_count": 16,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 23,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u8",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 16,
+      "injected_gate_count": 38,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 20,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u8",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 32,
+      "injected_gate_count": 32,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 242,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u8",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 32,
+      "injected_gate_count": 32,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 59,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_ring256_u8",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 32,
+      "injected_gate_count": 79,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 46,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u8",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 72,
+      "injected_gate_count": 72,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 490,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u8",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 72,
+      "injected_gate_count": 72,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 101,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u8",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 72,
+      "injected_gate_count": 185,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 96,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u8",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 144,
+      "injected_gate_count": 144,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 1183,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u8",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 144,
+      "injected_gate_count": 144,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 213,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u8",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 144,
+      "injected_gate_count": 364,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 178,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh32x32_u8",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 128,
+      "injected_gate_count": 128,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 800,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh32x32_u8",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 128,
+      "injected_gate_count": 128,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 180,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh32x32_u8",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 128,
+      "injected_gate_count": 325,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 161,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh32x32_u8",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 256,
+      "injected_gate_count": 256,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 1956,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh32x32_u8",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 256,
+      "injected_gate_count": 256,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 406,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh32x32_u8",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 256,
+      "injected_gate_count": 661,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 326,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u16",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 72,
+      "injected_gate_count": 72,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 508,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u16",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 72,
+      "injected_gate_count": 72,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 92,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u16",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 72,
+      "injected_gate_count": 186,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 89,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u16",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 144,
+      "injected_gate_count": 144,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 916,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u16",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 144,
+      "injected_gate_count": 144,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 211,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_mesh24x24_u16",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 144,
+      "injected_gate_count": 366,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 187,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_cascade256_u8",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 24,
+      "injected_gate_count": 24,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 139,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_cascade256_u8",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 24,
+      "injected_gate_count": 24,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 28,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_cascade256_u8",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 24,
+      "injected_gate_count": 64,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 30,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_cascade256_u8",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 48,
+      "injected_gate_count": 48,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 241,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_cascade256_u8",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 48,
+      "injected_gate_count": 48,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 72,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_cascade256_u8",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 48,
+      "injected_gate_count": 119,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 59,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_nonlocal_square128_u8",
+      "fault_pattern_id": "F001",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 40,
+      "injected_gate_count": 40,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 370,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_nonlocal_square128_u8",
+      "fault_pattern_id": "F002",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 40,
+      "injected_gate_count": 40,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 49,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_nonlocal_square128_u8",
+      "fault_pattern_id": "F003",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 40,
+      "injected_gate_count": 102,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 53,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_nonlocal_square128_u8",
+      "fault_pattern_id": "F004",
+      "fault_recipe": "sa0_single",
+      "injected_component_count": 80,
+      "injected_gate_count": 80,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 770,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_nonlocal_square128_u8",
+      "fault_pattern_id": "F005",
+      "fault_recipe": "sa1_single",
+      "injected_component_count": 80,
+      "injected_gate_count": 80,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 102,
+      "extra_input_attempts": 2
+    },
+    {
+      "circuit": "nl_nonlocal_square128_u8",
+      "fault_pattern_id": "F006",
+      "fault_recipe": "mixed_multi_2_to_3",
+      "injected_component_count": 80,
+      "injected_gate_count": 204,
+      "anchor_input_attempts": 1,
+      "gate_set_attempts": 109,
+      "extra_input_attempts": 2
+    }
+  ]
+}
