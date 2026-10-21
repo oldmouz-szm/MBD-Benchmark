@@ -1,0 +1,43 @@
+{
+  "dataset": "ArithDiag-Final576-v1",
+  "created_utc": "2026-10-21T05:59:30.862621+00:00",
+  "original_tasks": 918,
+  "selected_tasks": 576,
+  "excluded_tasks": 342,
+  "circuits": 36,
+  "original_physical_groups": 306,
+  "selected_physical_groups": 192,
+  "retained_by_source": {
+    "final_v1": 180,
+    "supplement_v1": 72,
+    "stress_v1": 162,
+    "medium_v1": 162
+  },
+  "quotas_physical_groups_per_circuit": {
+    "final_v1": 6,
+    "supplement_v1": 3,
+    "medium_v1": 6,
+    "stress_v1": 6
+  },
+  "selection_policy": [
+    "Keep all medium_v1 and stress_v1 groups.",
+    "Keep 6 of 15 groups per final_v1 circuit; cover all five fault levels and each recipe twice.",
+    "Keep 3 of 6 groups per supplement_v1 circuit; cover both fault levels and each recipe once.",
+    "Among feasible combinations maximize sum of max(AD wall, RC2 wall) across observations.",
+    "Tie-break by sum of absolute AD/RC2 wall differences, then fixed SHA256 order.",
+    "No method winner, diagnosis quality, optimum label or proof status enters selection.",
+    "Keep each physical group and its three observations together; retain original IDs."
+  ],
+  "historical_runtime_source_sha256": "053041e8252bcdffc6caa190452beb6235b63cfd038bea58f50414c18d4e9d55",
+  "caveat": "Selection uses observed runtimes and is a development subset, not an independent evaluation. Do not present historic selected-subset performance as an unbiased full-dataset result.",
+  "original_files_modified": false,
+  "solver_runs_started": false,
+  "source_selection_id": "ArithDiag-Curated576-v1",
+  "frozen_date": "2026-10-21",
+  "repository_release": "2.0.0",
+  "selection_manifest_source_sha256": "8e16d259f413778078d46ed5bf87a230b798c64c708e691cb216a34c8c59bea4",
+  "historical_runtime_source_description": "Old-server 594-instance paired AD-LS fraction50 and BE-RC2 complete-process wall times; 120s, seed1, six concurrent single-thread tasks.",
+  "individual_timings_published": false,
+  "excluded_instances_file": "excluded_instances.json",
+  "group_decisions_file": "selection_groups.json"
+}

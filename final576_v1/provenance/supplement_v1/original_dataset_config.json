@@ -1,0 +1,285 @@
+{
+  "dataset": "ArithDiag-Supplement8-v1",
+  "version": "1.0.0",
+  "release_date": "2026-10-13",
+  "seed": 20261013,
+  "circuits": [
+    {
+      "name": "nl_ring256_u16",
+      "family": "ring",
+      "size": 256,
+      "width": 16,
+      "arithmetic_components": 512,
+      "adders": 256,
+      "multipliers": 256,
+      "boolean_gates": 1527040,
+      "fault_levels": [
+        16,
+        32
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 4096,
+        "b": 4096,
+        "y": 16384
+      },
+      "output_lane_width": 64,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_ring512_u16",
+      "family": "ring",
+      "size": 512,
+      "width": 16,
+      "arithmetic_components": 1024,
+      "adders": 512,
+      "multipliers": 512,
+      "boolean_gates": 3054080,
+      "fault_levels": [
+        32,
+        64
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 8192,
+        "b": 8192,
+        "y": 32768
+      },
+      "output_lane_width": 64,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_ring256_u8",
+      "family": "ring",
+      "size": 256,
+      "width": 8,
+      "arithmetic_components": 512,
+      "adders": 256,
+      "multipliers": 256,
+      "boolean_gates": 369920,
+      "fault_levels": [
+        16,
+        32
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 2048,
+        "b": 2048,
+        "y": 8192
+      },
+      "output_lane_width": 32,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_mesh24x24_u8",
+      "family": "mesh",
+      "size": 24,
+      "width": 8,
+      "arithmetic_components": 2304,
+      "adders": 1152,
+      "multipliers": 1152,
+      "boolean_gates": 1733760,
+      "fault_levels": [
+        72,
+        144
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 4608,
+        "b": 4608,
+        "y": 19008
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_mesh32x32_u8",
+      "family": "mesh",
+      "size": 32,
+      "width": 8,
+      "arithmetic_components": 4096,
+      "adders": 2048,
+      "multipliers": 2048,
+      "boolean_gates": 3082240,
+      "fault_levels": [
+        128,
+        256
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 8192,
+        "b": 8192,
+        "y": 33792
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_mesh24x24_u16",
+      "family": "mesh",
+      "size": 24,
+      "width": 16,
+      "arithmetic_components": 2304,
+      "adders": 1152,
+      "multipliers": 1152,
+      "boolean_gates": 7009920,
+      "fault_levels": [
+        72,
+        144
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 9216,
+        "b": 9216,
+        "y": 37440
+      },
+      "output_lane_width": 65,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_cascade256_u8",
+      "family": "cascade",
+      "size": 256,
+      "width": 8,
+      "arithmetic_components": 768,
+      "adders": 256,
+      "multipliers": 512,
+      "boolean_gates": 482560,
+      "fault_levels": [
+        24,
+        48
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 2048,
+        "b": 2048,
+        "y": 8448
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 2,
+      "square_components": 0,
+      "offsets": []
+    },
+    {
+      "name": "nl_nonlocal_square128_u8",
+      "family": "nonlocal_square",
+      "size": 128,
+      "width": 8,
+      "arithmetic_components": 1280,
+      "adders": 640,
+      "multipliers": 640,
+      "boolean_gates": 986240,
+      "fault_levels": [
+        40,
+        80
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 1024,
+        "b": 1024,
+        "y": 16896
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 1,
+      "square_components": 128,
+      "offsets": [
+        1,
+        7,
+        31,
+        63
+      ]
+    }
+  ],
+  "logical_instances": 144,
+  "fixed_fault_configurations": 48,
+  "physical_observation_files": 288,
+  "fault_patterns_per_level": 3,
+  "observations_per_pattern": 3,
+  "fault_recipes": [
+    "sa0_single",
+    "sa1_single",
+    "mixed_multi_2_to_3"
+  ],
+  "fault_density_denominators": [
+    32,
+    16
+  ],
+  "observation_numbering": "001-018 per circuit",
+  "observation_mode": "independent single-observation weak component diagnosis",
+  "injection": "permanent internal Boolean gate-output stuck-at faults in distinct whole components",
+  "selection": "predeclared topology, size and width; no solver result or performance filtering",
+  "acceptance": "all selected components locally active on anchor input under propagated faulty inputs; all three observations externally detectable",
+  "generation": "new standalone generator; same fault semantics and recipes as original set; not an exact recreation of the old sampling implementation",
+  "arithmetic_generator": {
+    "repository": "https://github.com/ehw-fit/ariths-gen",
+    "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+    "version": "1.1.4"
+  },
+  "topology_origin": "project-composed; not an upstream benchmark or external industrial RTL",
+  "library": [
+    {
+      "module": "u_arrmul16",
+      "sha256": "16b9edefe0883c9074522955577eb7afc4c5d3b7ed2f9803cecf88ceb79c2534",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    },
+    {
+      "module": "u_arrmul32",
+      "sha256": "d16efe2eedba1b7651d007b4b6dfc8ddf3cc9723630e4d7e5f36fff3dac07283",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    },
+    {
+      "module": "u_arrmul8",
+      "sha256": "40b5a9d6e97ac4b01b625e5acb5ddbeee59be4e464fc395d7fdadd4a13498ebf",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    },
+    {
+      "module": "u_rca16",
+      "sha256": "8eafa08314ec56e44ebb954fa8b200c51b33469c931b73e01bdeed507ca21898",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    },
+    {
+      "module": "u_rca32",
+      "sha256": "c8997c7dd3fc69ff2853204a1cf02104a34459e333f0183ec25736833f68b9c3",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    },
+    {
+      "module": "u_rca64",
+      "sha256": "072fbdc8ad91d11b6c9d86def8fa3a3b2258bd51328dbcd8eb107cc9a22e7547",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    },
+    {
+      "module": "u_rca8",
+      "sha256": "0a768e1cecc23d6015d6d48e25d3bf5c028fdfa1c3a99d533c733d58a4982fff",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "unmodified frozen v1.0.0 component"
+    }
+  ],
+  "dataset_license": "CC-BY-4.0",
+  "generated_library_license": "not specified by pinned upstream"
+}

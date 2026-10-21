@@ -1,0 +1,272 @@
+[
+  {
+    "name": "nl_chord_ring1024_u8",
+    "family": "chord_ring",
+    "size": 1024,
+    "width": 8,
+    "arithmetic_components": 4096,
+    "adders": 2048,
+    "multipliers": 2048,
+    "boolean_gates": 3082240,
+    "fault_levels": [
+      128,
+      256
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 8192,
+      "b": 8192,
+      "y": 33792
+    },
+    "output_lane_width": 33,
+    "multiplication_depth": 1,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": 255,
+    "output_shift": null,
+    "packed_output_order": "y_0..y_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_chord_ring1024_u16",
+    "family": "chord_ring",
+    "size": 1024,
+    "width": 16,
+    "arithmetic_components": 4096,
+    "adders": 2048,
+    "multipliers": 2048,
+    "boolean_gates": 12462080,
+    "fault_levels": [
+      128,
+      256
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 16384,
+      "b": 16384,
+      "y": 66560
+    },
+    "output_lane_width": 65,
+    "multiplication_depth": 1,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": 255,
+    "output_shift": null,
+    "packed_output_order": "y_0..y_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_chord_ring2048_u16",
+    "family": "chord_ring",
+    "size": 2048,
+    "width": 16,
+    "arithmetic_components": 8192,
+    "adders": 4096,
+    "multipliers": 4096,
+    "boolean_gates": 24924160,
+    "fault_levels": [
+      256,
+      512
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 32768,
+      "b": 32768,
+      "y": 133120
+    },
+    "output_lane_width": 65,
+    "multiplication_depth": 1,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": 511,
+    "output_shift": null,
+    "packed_output_order": "y_0..y_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_mesh48x48_u8",
+    "family": "mesh",
+    "size": 48,
+    "width": 8,
+    "arithmetic_components": 9216,
+    "adders": 4608,
+    "multipliers": 4608,
+    "boolean_gates": 6935040,
+    "fault_levels": [
+      288,
+      576
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 18432,
+      "b": 18432,
+      "y": 76032
+    },
+    "output_lane_width": 33,
+    "multiplication_depth": 1,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": null,
+    "output_shift": null,
+    "packed_output_order": "y_0..y_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_mesh64x64_u8",
+    "family": "mesh",
+    "size": 64,
+    "width": 8,
+    "arithmetic_components": 16384,
+    "adders": 8192,
+    "multipliers": 8192,
+    "boolean_gates": 12328960,
+    "fault_levels": [
+      512,
+      1024
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 32768,
+      "b": 32768,
+      "y": 135168
+    },
+    "output_lane_width": 33,
+    "multiplication_depth": 1,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": null,
+    "output_shift": null,
+    "packed_output_order": "y_0..y_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_mesh32x32_u16",
+    "family": "mesh",
+    "size": 32,
+    "width": 16,
+    "arithmetic_components": 4096,
+    "adders": 2048,
+    "multipliers": 2048,
+    "boolean_gates": 12462080,
+    "fault_levels": [
+      128,
+      256
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 16384,
+      "b": 16384,
+      "y": 66560
+    },
+    "output_lane_width": 65,
+    "multiplication_depth": 1,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": null,
+    "output_shift": null,
+    "packed_output_order": "y_0..y_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_shared_product512_u8",
+    "family": "shared_product",
+    "size": 512,
+    "width": 8,
+    "arithmetic_components": 2560,
+    "adders": 1024,
+    "multipliers": 1536,
+    "boolean_gates": 1766400,
+    "fault_levels": [
+      80,
+      160
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 4096,
+      "b": 4096,
+      "y": 33792
+    },
+    "output_lane_width": 33,
+    "multiplication_depth": 2,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": 127,
+    "output_shift": 255,
+    "packed_output_order": "y_0..y_N-1,z_0..z_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_shared_product1024_u8",
+    "family": "shared_product",
+    "size": 1024,
+    "width": 8,
+    "arithmetic_components": 5120,
+    "adders": 2048,
+    "multipliers": 3072,
+    "boolean_gates": 3532800,
+    "fault_levels": [
+      160,
+      320
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 8192,
+      "b": 8192,
+      "y": 67584
+    },
+    "output_lane_width": 33,
+    "multiplication_depth": 2,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": 255,
+    "output_shift": 511,
+    "packed_output_order": "y_0..y_N-1,z_0..z_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  },
+  {
+    "name": "nl_shared_product512_u16",
+    "family": "shared_product",
+    "size": 512,
+    "width": 16,
+    "arithmetic_components": 2560,
+    "adders": 1024,
+    "multipliers": 1536,
+    "boolean_gates": 7074816,
+    "fault_levels": [
+      80,
+      160
+    ],
+    "observations": 18,
+    "fixed_fault_configurations": 6,
+    "ports": {
+      "a": 8192,
+      "b": 8192,
+      "y": 66560
+    },
+    "output_lane_width": 65,
+    "multiplication_depth": 2,
+    "square_components": 0,
+    "offsets": [],
+    "long_offset": 127,
+    "output_shift": 255,
+    "packed_output_order": "y_0..y_N-1,z_0..z_N-1",
+    "size_and_gate_counts_are_measured": true,
+    "solver_difficulty_measured": false
+  }
+]

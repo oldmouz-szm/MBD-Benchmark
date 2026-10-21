@@ -1,0 +1,3980 @@
+[
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "dot128_u8/observations_001",
+      "dot128_u8/observations_002",
+      "dot128_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "dot128_u8/observations_004",
+      "dot128_u8/observations_005",
+      "dot128_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "dot128_u8/observations_007",
+      "dot128_u8/observations_008",
+      "dot128_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 2,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "dot128_u8/observations_010",
+      "dot128_u8/observations_011",
+      "dot128_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "dot128_u8/observations_013",
+      "dot128_u8/observations_014",
+      "dot128_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "dot128_u8/observations_016",
+      "dot128_u8/observations_017",
+      "dot128_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F011",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "dot128_u8/observations_019",
+      "dot128_u8/observations_020",
+      "dot128_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F012",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "dot128_u8/observations_022",
+      "dot128_u8/observations_023",
+      "dot128_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "dot128_u8/observations_025",
+      "dot128_u8/observations_026",
+      "dot128_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "dot128_u8/observations_028",
+      "dot128_u8/observations_029",
+      "dot128_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F017",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "dot128_u8/observations_031",
+      "dot128_u8/observations_032",
+      "dot128_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F020",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "dot128_u8/observations_034",
+      "dot128_u8/observations_035",
+      "dot128_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F021",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "dot128_u8/observations_037",
+      "dot128_u8/observations_038",
+      "dot128_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F022",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "dot128_u8/observations_040",
+      "dot128_u8/observations_041",
+      "dot128_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "dot128_u8",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "dot128_u8/observations_043",
+      "dot128_u8/observations_044",
+      "dot128_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_001",
+      "fir32x32_u8/observations_002",
+      "fir32x32_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_004",
+      "fir32x32_u8/observations_005",
+      "fir32x32_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "fir32x32_u8/observations_007",
+      "fir32x32_u8/observations_008",
+      "fir32x32_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_010",
+      "fir32x32_u8/observations_011",
+      "fir32x32_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_013",
+      "fir32x32_u8/observations_014",
+      "fir32x32_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "fir32x32_u8/observations_016",
+      "fir32x32_u8/observations_017",
+      "fir32x32_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F011",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_019",
+      "fir32x32_u8/observations_020",
+      "fir32x32_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F012",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_022",
+      "fir32x32_u8/observations_023",
+      "fir32x32_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "fir32x32_u8/observations_025",
+      "fir32x32_u8/observations_026",
+      "fir32x32_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_028",
+      "fir32x32_u8/observations_029",
+      "fir32x32_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F017",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_031",
+      "fir32x32_u8/observations_032",
+      "fir32x32_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F020",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "fir32x32_u8/observations_034",
+      "fir32x32_u8/observations_035",
+      "fir32x32_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F021",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_037",
+      "fir32x32_u8/observations_038",
+      "fir32x32_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F022",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "fir32x32_u8/observations_040",
+      "fir32x32_u8/observations_041",
+      "fir32x32_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "fir32x32_u8",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "fir32x32_u8/observations_043",
+      "fir32x32_u8/observations_044",
+      "fir32x32_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_001",
+      "mac_bank16_u4/observations_002",
+      "mac_bank16_u4/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_004",
+      "mac_bank16_u4/observations_005",
+      "mac_bank16_u4/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "mac_bank16_u4/observations_007",
+      "mac_bank16_u4/observations_008",
+      "mac_bank16_u4/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_010",
+      "mac_bank16_u4/observations_011",
+      "mac_bank16_u4/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_013",
+      "mac_bank16_u4/observations_014",
+      "mac_bank16_u4/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F010",
+    "selected": true,
+    "fault_level": 2,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "mac_bank16_u4/observations_016",
+      "mac_bank16_u4/observations_017",
+      "mac_bank16_u4/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F011",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_019",
+      "mac_bank16_u4/observations_020",
+      "mac_bank16_u4/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F012",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_022",
+      "mac_bank16_u4/observations_023",
+      "mac_bank16_u4/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "mac_bank16_u4/observations_025",
+      "mac_bank16_u4/observations_026",
+      "mac_bank16_u4/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F016",
+    "selected": true,
+    "fault_level": 6,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_028",
+      "mac_bank16_u4/observations_029",
+      "mac_bank16_u4/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F017",
+    "selected": true,
+    "fault_level": 6,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_031",
+      "mac_bank16_u4/observations_032",
+      "mac_bank16_u4/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F020",
+    "selected": false,
+    "fault_level": 6,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "mac_bank16_u4/observations_034",
+      "mac_bank16_u4/observations_035",
+      "mac_bank16_u4/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F021",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_037",
+      "mac_bank16_u4/observations_038",
+      "mac_bank16_u4/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F022",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "mac_bank16_u4/observations_040",
+      "mac_bank16_u4/observations_041",
+      "mac_bank16_u4/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "mac_bank16_u4",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "mac_bank16_u4/observations_043",
+      "mac_bank16_u4/observations_044",
+      "mac_bank16_u4/observations_045"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_001",
+      "matvec16x16_u8/observations_002",
+      "matvec16x16_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_004",
+      "matvec16x16_u8/observations_005",
+      "matvec16x16_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec16x16_u8/observations_007",
+      "matvec16x16_u8/observations_008",
+      "matvec16x16_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_010",
+      "matvec16x16_u8/observations_011",
+      "matvec16x16_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F007",
+    "selected": true,
+    "fault_level": 2,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_013",
+      "matvec16x16_u8/observations_014",
+      "matvec16x16_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec16x16_u8/observations_016",
+      "matvec16x16_u8/observations_017",
+      "matvec16x16_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F011",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_019",
+      "matvec16x16_u8/observations_020",
+      "matvec16x16_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F012",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_022",
+      "matvec16x16_u8/observations_023",
+      "matvec16x16_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec16x16_u8/observations_025",
+      "matvec16x16_u8/observations_026",
+      "matvec16x16_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_028",
+      "matvec16x16_u8/observations_029",
+      "matvec16x16_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F017",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_031",
+      "matvec16x16_u8/observations_032",
+      "matvec16x16_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F020",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec16x16_u8/observations_034",
+      "matvec16x16_u8/observations_035",
+      "matvec16x16_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F021",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_037",
+      "matvec16x16_u8/observations_038",
+      "matvec16x16_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F022",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec16x16_u8/observations_040",
+      "matvec16x16_u8/observations_041",
+      "matvec16x16_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec16x16_u8",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec16x16_u8/observations_043",
+      "matvec16x16_u8/observations_044",
+      "matvec16x16_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_001",
+      "matvec64x64_u8/observations_002",
+      "matvec64x64_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_004",
+      "matvec64x64_u8/observations_005",
+      "matvec64x64_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec64x64_u8/observations_007",
+      "matvec64x64_u8/observations_008",
+      "matvec64x64_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_010",
+      "matvec64x64_u8/observations_011",
+      "matvec64x64_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_013",
+      "matvec64x64_u8/observations_014",
+      "matvec64x64_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F010",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec64x64_u8/observations_016",
+      "matvec64x64_u8/observations_017",
+      "matvec64x64_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F011",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_019",
+      "matvec64x64_u8/observations_020",
+      "matvec64x64_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F012",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_022",
+      "matvec64x64_u8/observations_023",
+      "matvec64x64_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec64x64_u8/observations_025",
+      "matvec64x64_u8/observations_026",
+      "matvec64x64_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_028",
+      "matvec64x64_u8/observations_029",
+      "matvec64x64_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F017",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_031",
+      "matvec64x64_u8/observations_032",
+      "matvec64x64_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F020",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec64x64_u8/observations_034",
+      "matvec64x64_u8/observations_035",
+      "matvec64x64_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F021",
+    "selected": false,
+    "fault_level": 64,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_037",
+      "matvec64x64_u8/observations_038",
+      "matvec64x64_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F022",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "matvec64x64_u8/observations_040",
+      "matvec64x64_u8/observations_041",
+      "matvec64x64_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "matvec64x64_u8",
+    "fault_pattern_id": "F025",
+    "selected": false,
+    "fault_level": 64,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "matvec64x64_u8/observations_043",
+      "matvec64x64_u8/observations_044",
+      "matvec64x64_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_cascade256_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 24,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_cascade256_u8/observations_001",
+      "nl_cascade256_u8/observations_002",
+      "nl_cascade256_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_cascade256_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 24,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_cascade256_u8/observations_004",
+      "nl_cascade256_u8/observations_005",
+      "nl_cascade256_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_cascade256_u8",
+    "fault_pattern_id": "F003",
+    "selected": false,
+    "fault_level": 24,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_cascade256_u8/observations_007",
+      "nl_cascade256_u8/observations_008",
+      "nl_cascade256_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_cascade256_u8",
+    "fault_pattern_id": "F004",
+    "selected": false,
+    "fault_level": 48,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_cascade256_u8/observations_010",
+      "nl_cascade256_u8/observations_011",
+      "nl_cascade256_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_cascade256_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 48,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_cascade256_u8/observations_013",
+      "nl_cascade256_u8/observations_014",
+      "nl_cascade256_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_cascade256_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 48,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_cascade256_u8/observations_016",
+      "nl_cascade256_u8/observations_017",
+      "nl_cascade256_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u16/observations_001",
+      "nl_chord_ring1024_u16/observations_002",
+      "nl_chord_ring1024_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u16/observations_004",
+      "nl_chord_ring1024_u16/observations_005",
+      "nl_chord_ring1024_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring1024_u16/observations_007",
+      "nl_chord_ring1024_u16/observations_008",
+      "nl_chord_ring1024_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u16/observations_010",
+      "nl_chord_ring1024_u16/observations_011",
+      "nl_chord_ring1024_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u16/observations_013",
+      "nl_chord_ring1024_u16/observations_014",
+      "nl_chord_ring1024_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring1024_u16/observations_016",
+      "nl_chord_ring1024_u16/observations_017",
+      "nl_chord_ring1024_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u8/observations_001",
+      "nl_chord_ring1024_u8/observations_002",
+      "nl_chord_ring1024_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u8/observations_004",
+      "nl_chord_ring1024_u8/observations_005",
+      "nl_chord_ring1024_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring1024_u8/observations_007",
+      "nl_chord_ring1024_u8/observations_008",
+      "nl_chord_ring1024_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u8/observations_010",
+      "nl_chord_ring1024_u8/observations_011",
+      "nl_chord_ring1024_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring1024_u8/observations_013",
+      "nl_chord_ring1024_u8/observations_014",
+      "nl_chord_ring1024_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring1024_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring1024_u8/observations_016",
+      "nl_chord_ring1024_u8/observations_017",
+      "nl_chord_ring1024_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring2048_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring2048_u16/observations_001",
+      "nl_chord_ring2048_u16/observations_002",
+      "nl_chord_ring2048_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring2048_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring2048_u16/observations_004",
+      "nl_chord_ring2048_u16/observations_005",
+      "nl_chord_ring2048_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring2048_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring2048_u16/observations_007",
+      "nl_chord_ring2048_u16/observations_008",
+      "nl_chord_ring2048_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring2048_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 512,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring2048_u16/observations_010",
+      "nl_chord_ring2048_u16/observations_011",
+      "nl_chord_ring2048_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring2048_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 512,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring2048_u16/observations_013",
+      "nl_chord_ring2048_u16/observations_014",
+      "nl_chord_ring2048_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_chord_ring2048_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 512,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring2048_u16/observations_016",
+      "nl_chord_ring2048_u16/observations_017",
+      "nl_chord_ring2048_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring256_u16/observations_001",
+      "nl_chord_ring256_u16/observations_002",
+      "nl_chord_ring256_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring256_u16/observations_004",
+      "nl_chord_ring256_u16/observations_005",
+      "nl_chord_ring256_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring256_u16/observations_007",
+      "nl_chord_ring256_u16/observations_008",
+      "nl_chord_ring256_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring256_u16/observations_010",
+      "nl_chord_ring256_u16/observations_011",
+      "nl_chord_ring256_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring256_u16/observations_013",
+      "nl_chord_ring256_u16/observations_014",
+      "nl_chord_ring256_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring256_u16/observations_016",
+      "nl_chord_ring256_u16/observations_017",
+      "nl_chord_ring256_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring256_u8/observations_001",
+      "nl_chord_ring256_u8/observations_002",
+      "nl_chord_ring256_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring256_u8/observations_004",
+      "nl_chord_ring256_u8/observations_005",
+      "nl_chord_ring256_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring256_u8/observations_007",
+      "nl_chord_ring256_u8/observations_008",
+      "nl_chord_ring256_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring256_u8/observations_010",
+      "nl_chord_ring256_u8/observations_011",
+      "nl_chord_ring256_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring256_u8/observations_013",
+      "nl_chord_ring256_u8/observations_014",
+      "nl_chord_ring256_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring256_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring256_u8/observations_016",
+      "nl_chord_ring256_u8/observations_017",
+      "nl_chord_ring256_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring512_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring512_u8/observations_001",
+      "nl_chord_ring512_u8/observations_002",
+      "nl_chord_ring512_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring512_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring512_u8/observations_004",
+      "nl_chord_ring512_u8/observations_005",
+      "nl_chord_ring512_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring512_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring512_u8/observations_007",
+      "nl_chord_ring512_u8/observations_008",
+      "nl_chord_ring512_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring512_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_chord_ring512_u8/observations_010",
+      "nl_chord_ring512_u8/observations_011",
+      "nl_chord_ring512_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring512_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_chord_ring512_u8/observations_013",
+      "nl_chord_ring512_u8/observations_014",
+      "nl_chord_ring512_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_chord_ring512_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_chord_ring512_u8/observations_016",
+      "nl_chord_ring512_u8/observations_017",
+      "nl_chord_ring512_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_001",
+      "nl_mesh16x16_u8/observations_002",
+      "nl_mesh16x16_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_004",
+      "nl_mesh16x16_u8/observations_005",
+      "nl_mesh16x16_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_007",
+      "nl_mesh16x16_u8/observations_008",
+      "nl_mesh16x16_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_010",
+      "nl_mesh16x16_u8/observations_011",
+      "nl_mesh16x16_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F007",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_013",
+      "nl_mesh16x16_u8/observations_014",
+      "nl_mesh16x16_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_016",
+      "nl_mesh16x16_u8/observations_017",
+      "nl_mesh16x16_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F011",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_019",
+      "nl_mesh16x16_u8/observations_020",
+      "nl_mesh16x16_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F012",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_022",
+      "nl_mesh16x16_u8/observations_023",
+      "nl_mesh16x16_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F015",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_025",
+      "nl_mesh16x16_u8/observations_026",
+      "nl_mesh16x16_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_028",
+      "nl_mesh16x16_u8/observations_029",
+      "nl_mesh16x16_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F017",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_031",
+      "nl_mesh16x16_u8/observations_032",
+      "nl_mesh16x16_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F020",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_034",
+      "nl_mesh16x16_u8/observations_035",
+      "nl_mesh16x16_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F021",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_037",
+      "nl_mesh16x16_u8/observations_038",
+      "nl_mesh16x16_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F022",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_040",
+      "nl_mesh16x16_u8/observations_041",
+      "nl_mesh16x16_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_mesh16x16_u8",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh16x16_u8/observations_043",
+      "nl_mesh16x16_u8/observations_044",
+      "nl_mesh16x16_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 72,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh24x24_u16/observations_001",
+      "nl_mesh24x24_u16/observations_002",
+      "nl_mesh24x24_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u16",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 72,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh24x24_u16/observations_004",
+      "nl_mesh24x24_u16/observations_005",
+      "nl_mesh24x24_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 72,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh24x24_u16/observations_007",
+      "nl_mesh24x24_u16/observations_008",
+      "nl_mesh24x24_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u16",
+    "fault_pattern_id": "F004",
+    "selected": false,
+    "fault_level": 144,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh24x24_u16/observations_010",
+      "nl_mesh24x24_u16/observations_011",
+      "nl_mesh24x24_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 144,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh24x24_u16/observations_013",
+      "nl_mesh24x24_u16/observations_014",
+      "nl_mesh24x24_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u16",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 144,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh24x24_u16/observations_016",
+      "nl_mesh24x24_u16/observations_017",
+      "nl_mesh24x24_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u8",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 72,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh24x24_u8/observations_001",
+      "nl_mesh24x24_u8/observations_002",
+      "nl_mesh24x24_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 72,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh24x24_u8/observations_004",
+      "nl_mesh24x24_u8/observations_005",
+      "nl_mesh24x24_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 72,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh24x24_u8/observations_007",
+      "nl_mesh24x24_u8/observations_008",
+      "nl_mesh24x24_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 144,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh24x24_u8/observations_010",
+      "nl_mesh24x24_u8/observations_011",
+      "nl_mesh24x24_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 144,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh24x24_u8/observations_013",
+      "nl_mesh24x24_u8/observations_014",
+      "nl_mesh24x24_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh24x24_u8",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 144,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh24x24_u8/observations_016",
+      "nl_mesh24x24_u8/observations_017",
+      "nl_mesh24x24_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh28x28_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 98,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh28x28_u16/observations_001",
+      "nl_mesh28x28_u16/observations_002",
+      "nl_mesh28x28_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh28x28_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 98,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh28x28_u16/observations_004",
+      "nl_mesh28x28_u16/observations_005",
+      "nl_mesh28x28_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh28x28_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 98,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh28x28_u16/observations_007",
+      "nl_mesh28x28_u16/observations_008",
+      "nl_mesh28x28_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh28x28_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 196,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh28x28_u16/observations_010",
+      "nl_mesh28x28_u16/observations_011",
+      "nl_mesh28x28_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh28x28_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 196,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh28x28_u16/observations_013",
+      "nl_mesh28x28_u16/observations_014",
+      "nl_mesh28x28_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh28x28_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 196,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh28x28_u16/observations_016",
+      "nl_mesh28x28_u16/observations_017",
+      "nl_mesh28x28_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh32x32_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh32x32_u16/observations_001",
+      "nl_mesh32x32_u16/observations_002",
+      "nl_mesh32x32_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh32x32_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh32x32_u16/observations_004",
+      "nl_mesh32x32_u16/observations_005",
+      "nl_mesh32x32_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh32x32_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh32x32_u16/observations_007",
+      "nl_mesh32x32_u16/observations_008",
+      "nl_mesh32x32_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh32x32_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh32x32_u16/observations_010",
+      "nl_mesh32x32_u16/observations_011",
+      "nl_mesh32x32_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh32x32_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh32x32_u16/observations_013",
+      "nl_mesh32x32_u16/observations_014",
+      "nl_mesh32x32_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh32x32_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh32x32_u16/observations_016",
+      "nl_mesh32x32_u16/observations_017",
+      "nl_mesh32x32_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh32x32_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 128,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh32x32_u8/observations_001",
+      "nl_mesh32x32_u8/observations_002",
+      "nl_mesh32x32_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh32x32_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 128,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh32x32_u8/observations_004",
+      "nl_mesh32x32_u8/observations_005",
+      "nl_mesh32x32_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh32x32_u8",
+    "fault_pattern_id": "F003",
+    "selected": false,
+    "fault_level": 128,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh32x32_u8/observations_007",
+      "nl_mesh32x32_u8/observations_008",
+      "nl_mesh32x32_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh32x32_u8",
+    "fault_pattern_id": "F004",
+    "selected": false,
+    "fault_level": 256,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh32x32_u8/observations_010",
+      "nl_mesh32x32_u8/observations_011",
+      "nl_mesh32x32_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh32x32_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh32x32_u8/observations_013",
+      "nl_mesh32x32_u8/observations_014",
+      "nl_mesh32x32_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_mesh32x32_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 256,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh32x32_u8/observations_016",
+      "nl_mesh32x32_u8/observations_017",
+      "nl_mesh32x32_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh36x36_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 162,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh36x36_u8/observations_001",
+      "nl_mesh36x36_u8/observations_002",
+      "nl_mesh36x36_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh36x36_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 162,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh36x36_u8/observations_004",
+      "nl_mesh36x36_u8/observations_005",
+      "nl_mesh36x36_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh36x36_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 162,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh36x36_u8/observations_007",
+      "nl_mesh36x36_u8/observations_008",
+      "nl_mesh36x36_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh36x36_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 324,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh36x36_u8/observations_010",
+      "nl_mesh36x36_u8/observations_011",
+      "nl_mesh36x36_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh36x36_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 324,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh36x36_u8/observations_013",
+      "nl_mesh36x36_u8/observations_014",
+      "nl_mesh36x36_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh36x36_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 324,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh36x36_u8/observations_016",
+      "nl_mesh36x36_u8/observations_017",
+      "nl_mesh36x36_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh40x40_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 200,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh40x40_u8/observations_001",
+      "nl_mesh40x40_u8/observations_002",
+      "nl_mesh40x40_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh40x40_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 200,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh40x40_u8/observations_004",
+      "nl_mesh40x40_u8/observations_005",
+      "nl_mesh40x40_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh40x40_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 200,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh40x40_u8/observations_007",
+      "nl_mesh40x40_u8/observations_008",
+      "nl_mesh40x40_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh40x40_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 400,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh40x40_u8/observations_010",
+      "nl_mesh40x40_u8/observations_011",
+      "nl_mesh40x40_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh40x40_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 400,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh40x40_u8/observations_013",
+      "nl_mesh40x40_u8/observations_014",
+      "nl_mesh40x40_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_mesh40x40_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 400,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh40x40_u8/observations_016",
+      "nl_mesh40x40_u8/observations_017",
+      "nl_mesh40x40_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh48x48_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 288,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh48x48_u8/observations_001",
+      "nl_mesh48x48_u8/observations_002",
+      "nl_mesh48x48_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh48x48_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 288,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh48x48_u8/observations_004",
+      "nl_mesh48x48_u8/observations_005",
+      "nl_mesh48x48_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh48x48_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 288,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh48x48_u8/observations_007",
+      "nl_mesh48x48_u8/observations_008",
+      "nl_mesh48x48_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh48x48_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 576,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh48x48_u8/observations_010",
+      "nl_mesh48x48_u8/observations_011",
+      "nl_mesh48x48_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh48x48_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 576,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh48x48_u8/observations_013",
+      "nl_mesh48x48_u8/observations_014",
+      "nl_mesh48x48_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh48x48_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 576,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh48x48_u8/observations_016",
+      "nl_mesh48x48_u8/observations_017",
+      "nl_mesh48x48_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh64x64_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 512,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh64x64_u8/observations_001",
+      "nl_mesh64x64_u8/observations_002",
+      "nl_mesh64x64_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh64x64_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 512,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh64x64_u8/observations_004",
+      "nl_mesh64x64_u8/observations_005",
+      "nl_mesh64x64_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh64x64_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 512,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh64x64_u8/observations_007",
+      "nl_mesh64x64_u8/observations_008",
+      "nl_mesh64x64_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh64x64_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 1024,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_mesh64x64_u8/observations_010",
+      "nl_mesh64x64_u8/observations_011",
+      "nl_mesh64x64_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh64x64_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 1024,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_mesh64x64_u8/observations_013",
+      "nl_mesh64x64_u8/observations_014",
+      "nl_mesh64x64_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_mesh64x64_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 1024,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_mesh64x64_u8/observations_016",
+      "nl_mesh64x64_u8/observations_017",
+      "nl_mesh64x64_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_nonlocal_square128_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_nonlocal_square128_u8/observations_001",
+      "nl_nonlocal_square128_u8/observations_002",
+      "nl_nonlocal_square128_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_nonlocal_square128_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 40,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_nonlocal_square128_u8/observations_004",
+      "nl_nonlocal_square128_u8/observations_005",
+      "nl_nonlocal_square128_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_nonlocal_square128_u8",
+    "fault_pattern_id": "F003",
+    "selected": false,
+    "fault_level": 40,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_nonlocal_square128_u8/observations_007",
+      "nl_nonlocal_square128_u8/observations_008",
+      "nl_nonlocal_square128_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_nonlocal_square128_u8",
+    "fault_pattern_id": "F004",
+    "selected": false,
+    "fault_level": 80,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_nonlocal_square128_u8/observations_010",
+      "nl_nonlocal_square128_u8/observations_011",
+      "nl_nonlocal_square128_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_nonlocal_square128_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_nonlocal_square128_u8/observations_013",
+      "nl_nonlocal_square128_u8/observations_014",
+      "nl_nonlocal_square128_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_nonlocal_square128_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_nonlocal_square128_u8/observations_016",
+      "nl_nonlocal_square128_u8/observations_017",
+      "nl_nonlocal_square128_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_001",
+      "nl_ring128_u16/observations_002",
+      "nl_ring128_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_004",
+      "nl_ring128_u16/observations_005",
+      "nl_ring128_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring128_u16/observations_007",
+      "nl_ring128_u16/observations_008",
+      "nl_ring128_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_010",
+      "nl_ring128_u16/observations_011",
+      "nl_ring128_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_013",
+      "nl_ring128_u16/observations_014",
+      "nl_ring128_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F010",
+    "selected": true,
+    "fault_level": 2,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring128_u16/observations_016",
+      "nl_ring128_u16/observations_017",
+      "nl_ring128_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F011",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_019",
+      "nl_ring128_u16/observations_020",
+      "nl_ring128_u16/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F012",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_022",
+      "nl_ring128_u16/observations_023",
+      "nl_ring128_u16/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring128_u16/observations_025",
+      "nl_ring128_u16/observations_026",
+      "nl_ring128_u16/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F016",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_028",
+      "nl_ring128_u16/observations_029",
+      "nl_ring128_u16/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F017",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_031",
+      "nl_ring128_u16/observations_032",
+      "nl_ring128_u16/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F020",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring128_u16/observations_034",
+      "nl_ring128_u16/observations_035",
+      "nl_ring128_u16/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F021",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_037",
+      "nl_ring128_u16/observations_038",
+      "nl_ring128_u16/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F022",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring128_u16/observations_040",
+      "nl_ring128_u16/observations_041",
+      "nl_ring128_u16/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring128_u16",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring128_u16/observations_043",
+      "nl_ring128_u16/observations_044",
+      "nl_ring128_u16/observations_045"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_001",
+      "nl_ring16_u8/observations_002",
+      "nl_ring16_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_004",
+      "nl_ring16_u8/observations_005",
+      "nl_ring16_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring16_u8/observations_007",
+      "nl_ring16_u8/observations_008",
+      "nl_ring16_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F006",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_010",
+      "nl_ring16_u8/observations_011",
+      "nl_ring16_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F007",
+    "selected": true,
+    "fault_level": 2,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_013",
+      "nl_ring16_u8/observations_014",
+      "nl_ring16_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring16_u8/observations_016",
+      "nl_ring16_u8/observations_017",
+      "nl_ring16_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F011",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_019",
+      "nl_ring16_u8/observations_020",
+      "nl_ring16_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F012",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_022",
+      "nl_ring16_u8/observations_023",
+      "nl_ring16_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F015",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring16_u8/observations_025",
+      "nl_ring16_u8/observations_026",
+      "nl_ring16_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F016",
+    "selected": true,
+    "fault_level": 6,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_028",
+      "nl_ring16_u8/observations_029",
+      "nl_ring16_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F017",
+    "selected": false,
+    "fault_level": 6,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_031",
+      "nl_ring16_u8/observations_032",
+      "nl_ring16_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F020",
+    "selected": false,
+    "fault_level": 6,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring16_u8/observations_034",
+      "nl_ring16_u8/observations_035",
+      "nl_ring16_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F021",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_037",
+      "nl_ring16_u8/observations_038",
+      "nl_ring16_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F022",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring16_u8/observations_040",
+      "nl_ring16_u8/observations_041",
+      "nl_ring16_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "nl_ring16_u8",
+    "fault_pattern_id": "F025",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring16_u8/observations_043",
+      "nl_ring16_u8/observations_044",
+      "nl_ring16_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u16",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring256_u16/observations_001",
+      "nl_ring256_u16/observations_002",
+      "nl_ring256_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring256_u16/observations_004",
+      "nl_ring256_u16/observations_005",
+      "nl_ring256_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u16",
+    "fault_pattern_id": "F003",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring256_u16/observations_007",
+      "nl_ring256_u16/observations_008",
+      "nl_ring256_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring256_u16/observations_010",
+      "nl_ring256_u16/observations_011",
+      "nl_ring256_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u16",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring256_u16/observations_013",
+      "nl_ring256_u16/observations_014",
+      "nl_ring256_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring256_u16/observations_016",
+      "nl_ring256_u16/observations_017",
+      "nl_ring256_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring256_u8/observations_001",
+      "nl_ring256_u8/observations_002",
+      "nl_ring256_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring256_u8/observations_004",
+      "nl_ring256_u8/observations_005",
+      "nl_ring256_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u8",
+    "fault_pattern_id": "F003",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring256_u8/observations_007",
+      "nl_ring256_u8/observations_008",
+      "nl_ring256_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u8",
+    "fault_pattern_id": "F004",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring256_u8/observations_010",
+      "nl_ring256_u8/observations_011",
+      "nl_ring256_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring256_u8/observations_013",
+      "nl_ring256_u8/observations_014",
+      "nl_ring256_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring256_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring256_u8/observations_016",
+      "nl_ring256_u8/observations_017",
+      "nl_ring256_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring512_u16",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring512_u16/observations_001",
+      "nl_ring512_u16/observations_002",
+      "nl_ring512_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring512_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring512_u16/observations_004",
+      "nl_ring512_u16/observations_005",
+      "nl_ring512_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring512_u16",
+    "fault_pattern_id": "F003",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring512_u16/observations_007",
+      "nl_ring512_u16/observations_008",
+      "nl_ring512_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring512_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_ring512_u16/observations_010",
+      "nl_ring512_u16/observations_011",
+      "nl_ring512_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring512_u16",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 64,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_ring512_u16/observations_013",
+      "nl_ring512_u16/observations_014",
+      "nl_ring512_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "supplement_v1",
+    "circuit": "nl_ring512_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_ring512_u16/observations_016",
+      "nl_ring512_u16/observations_017",
+      "nl_ring512_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product1024_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product1024_u8/observations_001",
+      "nl_shared_product1024_u8/observations_002",
+      "nl_shared_product1024_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product1024_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product1024_u8/observations_004",
+      "nl_shared_product1024_u8/observations_005",
+      "nl_shared_product1024_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product1024_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product1024_u8/observations_007",
+      "nl_shared_product1024_u8/observations_008",
+      "nl_shared_product1024_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product1024_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 320,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product1024_u8/observations_010",
+      "nl_shared_product1024_u8/observations_011",
+      "nl_shared_product1024_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product1024_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 320,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product1024_u8/observations_013",
+      "nl_shared_product1024_u8/observations_014",
+      "nl_shared_product1024_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product1024_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 320,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product1024_u8/observations_016",
+      "nl_shared_product1024_u8/observations_017",
+      "nl_shared_product1024_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 20,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product128_u16/observations_001",
+      "nl_shared_product128_u16/observations_002",
+      "nl_shared_product128_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 20,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product128_u16/observations_004",
+      "nl_shared_product128_u16/observations_005",
+      "nl_shared_product128_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 20,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product128_u16/observations_007",
+      "nl_shared_product128_u16/observations_008",
+      "nl_shared_product128_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product128_u16/observations_010",
+      "nl_shared_product128_u16/observations_011",
+      "nl_shared_product128_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product128_u16/observations_013",
+      "nl_shared_product128_u16/observations_014",
+      "nl_shared_product128_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product128_u16/observations_016",
+      "nl_shared_product128_u16/observations_017",
+      "nl_shared_product128_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 20,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product128_u8/observations_001",
+      "nl_shared_product128_u8/observations_002",
+      "nl_shared_product128_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 20,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product128_u8/observations_004",
+      "nl_shared_product128_u8/observations_005",
+      "nl_shared_product128_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 20,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product128_u8/observations_007",
+      "nl_shared_product128_u8/observations_008",
+      "nl_shared_product128_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product128_u8/observations_010",
+      "nl_shared_product128_u8/observations_011",
+      "nl_shared_product128_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product128_u8/observations_013",
+      "nl_shared_product128_u8/observations_014",
+      "nl_shared_product128_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product128_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product128_u8/observations_016",
+      "nl_shared_product128_u8/observations_017",
+      "nl_shared_product128_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product256_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product256_u8/observations_001",
+      "nl_shared_product256_u8/observations_002",
+      "nl_shared_product256_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product256_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product256_u8/observations_004",
+      "nl_shared_product256_u8/observations_005",
+      "nl_shared_product256_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product256_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 40,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product256_u8/observations_007",
+      "nl_shared_product256_u8/observations_008",
+      "nl_shared_product256_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product256_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product256_u8/observations_010",
+      "nl_shared_product256_u8/observations_011",
+      "nl_shared_product256_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product256_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product256_u8/observations_013",
+      "nl_shared_product256_u8/observations_014",
+      "nl_shared_product256_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "medium_v1",
+    "circuit": "nl_shared_product256_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product256_u8/observations_016",
+      "nl_shared_product256_u8/observations_017",
+      "nl_shared_product256_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u16",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product512_u16/observations_001",
+      "nl_shared_product512_u16/observations_002",
+      "nl_shared_product512_u16/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u16",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product512_u16/observations_004",
+      "nl_shared_product512_u16/observations_005",
+      "nl_shared_product512_u16/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u16",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product512_u16/observations_007",
+      "nl_shared_product512_u16/observations_008",
+      "nl_shared_product512_u16/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u16",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product512_u16/observations_010",
+      "nl_shared_product512_u16/observations_011",
+      "nl_shared_product512_u16/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u16",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product512_u16/observations_013",
+      "nl_shared_product512_u16/observations_014",
+      "nl_shared_product512_u16/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u16",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product512_u16/observations_016",
+      "nl_shared_product512_u16/observations_017",
+      "nl_shared_product512_u16/observations_018"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u8",
+    "fault_pattern_id": "F001",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product512_u8/observations_001",
+      "nl_shared_product512_u8/observations_002",
+      "nl_shared_product512_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product512_u8/observations_004",
+      "nl_shared_product512_u8/observations_005",
+      "nl_shared_product512_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u8",
+    "fault_pattern_id": "F003",
+    "selected": true,
+    "fault_level": 80,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product512_u8/observations_007",
+      "nl_shared_product512_u8/observations_008",
+      "nl_shared_product512_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u8",
+    "fault_pattern_id": "F004",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "nl_shared_product512_u8/observations_010",
+      "nl_shared_product512_u8/observations_011",
+      "nl_shared_product512_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "nl_shared_product512_u8/observations_013",
+      "nl_shared_product512_u8/observations_014",
+      "nl_shared_product512_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "stress_v1",
+    "circuit": "nl_shared_product512_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 160,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "nl_shared_product512_u8/observations_016",
+      "nl_shared_product512_u8/observations_017",
+      "nl_shared_product512_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_001",
+      "sliding_pair128_u8/observations_002",
+      "sliding_pair128_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F002",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_004",
+      "sliding_pair128_u8/observations_005",
+      "sliding_pair128_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F005",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_007",
+      "sliding_pair128_u8/observations_008",
+      "sliding_pair128_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 2,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_010",
+      "sliding_pair128_u8/observations_011",
+      "sliding_pair128_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_013",
+      "sliding_pair128_u8/observations_014",
+      "sliding_pair128_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 2,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_016",
+      "sliding_pair128_u8/observations_017",
+      "sliding_pair128_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F011",
+    "selected": true,
+    "fault_level": 4,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_019",
+      "sliding_pair128_u8/observations_020",
+      "sliding_pair128_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F012",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_022",
+      "sliding_pair128_u8/observations_023",
+      "sliding_pair128_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 4,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_025",
+      "sliding_pair128_u8/observations_026",
+      "sliding_pair128_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_028",
+      "sliding_pair128_u8/observations_029",
+      "sliding_pair128_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F017",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_031",
+      "sliding_pair128_u8/observations_032",
+      "sliding_pair128_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F020",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_034",
+      "sliding_pair128_u8/observations_035",
+      "sliding_pair128_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F021",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_037",
+      "sliding_pair128_u8/observations_038",
+      "sliding_pair128_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F022",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_040",
+      "sliding_pair128_u8/observations_041",
+      "sliding_pair128_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sliding_pair128_u8",
+    "fault_pattern_id": "F025",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sliding_pair128_u8/observations_043",
+      "sliding_pair128_u8/observations_044",
+      "sliding_pair128_u8/observations_045"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F001",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_001",
+      "sumprod16x64_u8/observations_002",
+      "sumprod16x64_u8/observations_003"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F002",
+    "selected": false,
+    "fault_level": 1,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_004",
+      "sumprod16x64_u8/observations_005",
+      "sumprod16x64_u8/observations_006"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F005",
+    "selected": true,
+    "fault_level": 1,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_007",
+      "sumprod16x64_u8/observations_008",
+      "sumprod16x64_u8/observations_009"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F006",
+    "selected": true,
+    "fault_level": 8,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_010",
+      "sumprod16x64_u8/observations_011",
+      "sumprod16x64_u8/observations_012"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F007",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_013",
+      "sumprod16x64_u8/observations_014",
+      "sumprod16x64_u8/observations_015"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F010",
+    "selected": false,
+    "fault_level": 8,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_016",
+      "sumprod16x64_u8/observations_017",
+      "sumprod16x64_u8/observations_018"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F011",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_019",
+      "sumprod16x64_u8/observations_020",
+      "sumprod16x64_u8/observations_021"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F012",
+    "selected": true,
+    "fault_level": 16,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_022",
+      "sumprod16x64_u8/observations_023",
+      "sumprod16x64_u8/observations_024"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F015",
+    "selected": false,
+    "fault_level": 16,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_025",
+      "sumprod16x64_u8/observations_026",
+      "sumprod16x64_u8/observations_027"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F016",
+    "selected": false,
+    "fault_level": 32,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_028",
+      "sumprod16x64_u8/observations_029",
+      "sumprod16x64_u8/observations_030"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F017",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_031",
+      "sumprod16x64_u8/observations_032",
+      "sumprod16x64_u8/observations_033"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F020",
+    "selected": true,
+    "fault_level": 32,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_034",
+      "sumprod16x64_u8/observations_035",
+      "sumprod16x64_u8/observations_036"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F021",
+    "selected": true,
+    "fault_level": 64,
+    "fault_recipe": "sa0_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_037",
+      "sumprod16x64_u8/observations_038",
+      "sumprod16x64_u8/observations_039"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F022",
+    "selected": false,
+    "fault_level": 64,
+    "fault_recipe": "sa1_single",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_040",
+      "sumprod16x64_u8/observations_041",
+      "sumprod16x64_u8/observations_042"
+    ]
+  },
+  {
+    "dataset": "final_v1",
+    "circuit": "sumprod16x64_u8",
+    "fault_pattern_id": "F025",
+    "selected": false,
+    "fault_level": 64,
+    "fault_recipe": "mixed_multi_2_to_3",
+    "instance_ids": [
+      "sumprod16x64_u8/observations_043",
+      "sumprod16x64_u8/observations_044",
+      "sumprod16x64_u8/observations_045"
+    ]
+  }
+]

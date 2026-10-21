@@ -1,0 +1,357 @@
+{
+  "dataset": "ArithDiag-Stress9-v1",
+  "version": "1.0.0",
+  "generation_date": "2026-10-20",
+  "seed": 20261020,
+  "circuits": [
+    {
+      "name": "nl_chord_ring1024_u8",
+      "family": "chord_ring",
+      "size": 1024,
+      "width": 8,
+      "arithmetic_components": 4096,
+      "adders": 2048,
+      "multipliers": 2048,
+      "boolean_gates": 3082240,
+      "fault_levels": [
+        128,
+        256
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 8192,
+        "b": 8192,
+        "y": 33792
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": 255,
+      "output_shift": null,
+      "packed_output_order": "y_0..y_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_chord_ring1024_u16",
+      "family": "chord_ring",
+      "size": 1024,
+      "width": 16,
+      "arithmetic_components": 4096,
+      "adders": 2048,
+      "multipliers": 2048,
+      "boolean_gates": 12462080,
+      "fault_levels": [
+        128,
+        256
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 16384,
+        "b": 16384,
+        "y": 66560
+      },
+      "output_lane_width": 65,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": 255,
+      "output_shift": null,
+      "packed_output_order": "y_0..y_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_chord_ring2048_u16",
+      "family": "chord_ring",
+      "size": 2048,
+      "width": 16,
+      "arithmetic_components": 8192,
+      "adders": 4096,
+      "multipliers": 4096,
+      "boolean_gates": 24924160,
+      "fault_levels": [
+        256,
+        512
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 32768,
+        "b": 32768,
+        "y": 133120
+      },
+      "output_lane_width": 65,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": 511,
+      "output_shift": null,
+      "packed_output_order": "y_0..y_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_mesh48x48_u8",
+      "family": "mesh",
+      "size": 48,
+      "width": 8,
+      "arithmetic_components": 9216,
+      "adders": 4608,
+      "multipliers": 4608,
+      "boolean_gates": 6935040,
+      "fault_levels": [
+        288,
+        576
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 18432,
+        "b": 18432,
+        "y": 76032
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": null,
+      "output_shift": null,
+      "packed_output_order": "y_0..y_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_mesh64x64_u8",
+      "family": "mesh",
+      "size": 64,
+      "width": 8,
+      "arithmetic_components": 16384,
+      "adders": 8192,
+      "multipliers": 8192,
+      "boolean_gates": 12328960,
+      "fault_levels": [
+        512,
+        1024
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 32768,
+        "b": 32768,
+        "y": 135168
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": null,
+      "output_shift": null,
+      "packed_output_order": "y_0..y_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_mesh32x32_u16",
+      "family": "mesh",
+      "size": 32,
+      "width": 16,
+      "arithmetic_components": 4096,
+      "adders": 2048,
+      "multipliers": 2048,
+      "boolean_gates": 12462080,
+      "fault_levels": [
+        128,
+        256
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 16384,
+        "b": 16384,
+        "y": 66560
+      },
+      "output_lane_width": 65,
+      "multiplication_depth": 1,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": null,
+      "output_shift": null,
+      "packed_output_order": "y_0..y_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_shared_product512_u8",
+      "family": "shared_product",
+      "size": 512,
+      "width": 8,
+      "arithmetic_components": 2560,
+      "adders": 1024,
+      "multipliers": 1536,
+      "boolean_gates": 1766400,
+      "fault_levels": [
+        80,
+        160
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 4096,
+        "b": 4096,
+        "y": 33792
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 2,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": 127,
+      "output_shift": 255,
+      "packed_output_order": "y_0..y_N-1,z_0..z_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_shared_product1024_u8",
+      "family": "shared_product",
+      "size": 1024,
+      "width": 8,
+      "arithmetic_components": 5120,
+      "adders": 2048,
+      "multipliers": 3072,
+      "boolean_gates": 3532800,
+      "fault_levels": [
+        160,
+        320
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 8192,
+        "b": 8192,
+        "y": 67584
+      },
+      "output_lane_width": 33,
+      "multiplication_depth": 2,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": 255,
+      "output_shift": 511,
+      "packed_output_order": "y_0..y_N-1,z_0..z_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    },
+    {
+      "name": "nl_shared_product512_u16",
+      "family": "shared_product",
+      "size": 512,
+      "width": 16,
+      "arithmetic_components": 2560,
+      "adders": 1024,
+      "multipliers": 1536,
+      "boolean_gates": 7074816,
+      "fault_levels": [
+        80,
+        160
+      ],
+      "observations": 18,
+      "fixed_fault_configurations": 6,
+      "ports": {
+        "a": 8192,
+        "b": 8192,
+        "y": 66560
+      },
+      "output_lane_width": 65,
+      "multiplication_depth": 2,
+      "square_components": 0,
+      "offsets": [],
+      "long_offset": 127,
+      "output_shift": 255,
+      "packed_output_order": "y_0..y_N-1,z_0..z_N-1",
+      "size_and_gate_counts_are_measured": true,
+      "solver_difficulty_measured": false
+    }
+  ],
+  "logical_instances": 162,
+  "fixed_fault_configurations": 54,
+  "physical_observation_files": 324,
+  "fault_recipes": [
+    "sa0_single",
+    "sa1_single",
+    "mixed_multi_2_to_3"
+  ],
+  "mixed_recipe": "two or three distinct gate sites, including both stuck polarities in EACH selected component",
+  "fault_density_denominators": [
+    32,
+    16
+  ],
+  "observations_per_pattern": 3,
+  "acceptance": "all selected components locally active at anchor input; all three observations externally detectable",
+  "selection": "predeclared topology, size, width and fault densities; no solver result, optimum or runtime filtering",
+  "observation_mode": "independent single-observation, unsigned, unit-cost whole-component weak fault",
+  "library": [
+    {
+      "module": "u_arrmul16",
+      "sha256": "16b9edefe0883c9074522955577eb7afc4c5d3b7ed2f9803cecf88ceb79c2534",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    },
+    {
+      "module": "u_arrmul32",
+      "sha256": "d16efe2eedba1b7651d007b4b6dfc8ddf3cc9723630e4d7e5f36fff3dac07283",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    },
+    {
+      "module": "u_arrmul8",
+      "sha256": "40b5a9d6e97ac4b01b625e5acb5ddbeee59be4e464fc395d7fdadd4a13498ebf",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    },
+    {
+      "module": "u_rca16",
+      "sha256": "8eafa08314ec56e44ebb954fa8b200c51b33469c931b73e01bdeed507ca21898",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    },
+    {
+      "module": "u_rca32",
+      "sha256": "c8997c7dd3fc69ff2853204a1cf02104a34459e333f0183ec25736833f68b9c3",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    },
+    {
+      "module": "u_rca64",
+      "sha256": "072fbdc8ad91d11b6c9d86def8fa3a3b2258bd51328dbcd8eb107cc9a22e7547",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    },
+    {
+      "module": "u_rca8",
+      "sha256": "0a768e1cecc23d6015d6d48e25d3bf5c028fdfa1c3a99d533c733d58a4982fff",
+      "upstream_commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf"
+    }
+  ],
+  "topology_origin": "project-composed layered DAG; modular indices represent spatial links, no feedback",
+  "topology": {
+    "chord_ring": [
+      "t_i=a_i+b_i",
+      "q_i=t_i*t_(i+1)",
+      "r_i=t_i*t_(i+k)",
+      "y_i=q_i+r_i"
+    ],
+    "shared_product": [
+      "p_i=a_i*b_i",
+      "q_i=p_i*p_(i+1)",
+      "r_i=p_i*p_(i+k)",
+      "y_i=q_i+r_i",
+      "z_i=q_i+r_(i+d)"
+    ],
+    "k": "N/4-1",
+    "d": "N/2-1",
+    "mesh": "identical periodic mesh family to Supplement8"
+  },
+  "generator_sha256": "42995d23abd793c1baecfff437e7022b0dca635d828304cab399fa8a18a171bc",
+  "reused_tool_sha256": "a770bfc7a4bb41be7c95afc70374fffb74e255c270ec1492dfba6178bcb31290",
+  "dataset_license": "CC-BY-4.0",
+  "generated_library_license": "excluded; see THIRD_PARTY_NOTICES.md",
+  "optimum_labels_supplied": false,
+  "performance_experiments_started": false
+}

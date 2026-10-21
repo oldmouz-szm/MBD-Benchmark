@@ -1,1 +1,4 @@
 * text eol=lf
+
+# Frozen inputs: preserve exact bytes for checksums.
+final576_v1/** -text

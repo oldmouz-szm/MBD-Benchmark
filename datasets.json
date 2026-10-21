@@ -1,5 +1,5 @@
 {
-  "repository_release": "1.1.0",
+  "repository_release": "2.0.0",
   "circuits": 18,
   "physical_fault_configurations": 198,
   "observations": 594,
@@ -21,5 +21,17 @@
       "physical_fault_configurations": 48,
       "observations": 144
     }
-  ]
+  ],
+  "legacy_totals_only": true,
+  "collection_policy": "Recommended and legacy datasets overlap; never concatenate their totals.",
+  "recommended_dataset": {
+    "id": "ArithDiag-Final576-v1",
+    "root": "final576_v1",
+    "instances": "final576_v1/instances.json",
+    "circuits": 36,
+    "physical_fault_configurations": 192,
+    "observations": 576,
+    "frozen_date": "2026-10-21",
+    "selection_type": "performance-informed development subset"
+  }
 }

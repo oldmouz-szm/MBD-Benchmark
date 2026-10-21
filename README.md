@@ -1,5 +1,39 @@
 # MBD-Benchmark
 
+## Recommended final frozen snapshot
+
+**[ArithDiag-Final576-v1](final576_v1/README.md): 36 circuits, 192 fixed physical
+fault configurations, 576 single-observation diagnosis tasks.** Frozen on
+2026-10-21 and published with repository release v2.0.0.
+
+Use **`final576_v1/` as the dataset root** and
+[`final576_v1/instances.json`](final576_v1/instances.json) as the final task list.
+It retains 180 original, 72 first-supplement, 162 medium and 162 stress tasks.
+All original circuit types, per-circuit fault-count levels and three fault
+recipes remain represented; each physical group retains all three inputs.
+
+**Selection disclosure:** this 576-task snapshot was reduced from a 918-task
+development pool using historical runtime information for the original and
+first-supplement portions. It is not an unseen test set. See the
+[selection policy](final576_v1/README.md#selection-and-interpretation) and
+[frozen membership decisions](final576_v1/selection_groups.json).
+
+The previous 450/594-task releases and their input files are preserved.
+The final snapshot overlaps those datasets; do not concatenate them or count
+the integer/bit mirrors as separate tasks. Root `instances.json`,
+`all_instances.json` retain their legacy meaning. Repository-level checksums
+are refreshed for this release; earlier checksums remain in v1.x tags. No new
+solver results or optimum labels are published in this update.
+
+```bash
+python tools/verify_final576.py --dataset-root final576_v1
+```
+
+## Archived original and first-supplement datasets
+
+The following describes the earlier v1.x release. Its solver-interface warning
+records the historical tested revision, not a claim about current solvers.
+
 **18 circuits · 198 fixed physical fault configurations · 594 single-observation
 diagnosis instances**, distributed as two separately frozen datasets:
 

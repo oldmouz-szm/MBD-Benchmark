@@ -1,0 +1,252 @@
+{
+  "dataset": "CAIQ-Arith10-v1",
+  "seed": 20261005,
+  "circuits": [
+    {
+      "name": "mac_bank16_u4",
+      "family": "mac_bank",
+      "size": 16,
+      "width": 4,
+      "expected_components": 32,
+      "fault_levels": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "feature": "small independent MAC bank; Dadda multipliers"
+    },
+    {
+      "name": "dot128_u8",
+      "family": "dot",
+      "size": 128,
+      "width": 8,
+      "expected_components": 255,
+      "fault_levels": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "feature": "single-output linearizable control"
+    },
+    {
+      "name": "sliding_pair128_u8",
+      "family": "sliding",
+      "size": 128,
+      "width": 8,
+      "expected_components": 255,
+      "fault_levels": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "feature": "shared products and overlapping outputs"
+    },
+    {
+      "name": "matvec16x16_u8",
+      "family": "matvec",
+      "size": 16,
+      "width": 8,
+      "expected_components": 496,
+      "fault_levels": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "feature": "medium matrix-vector array"
+    },
+    {
+      "name": "fir32x32_u8",
+      "family": "fir",
+      "size": 32,
+      "width": 8,
+      "expected_components": 2016,
+      "fault_levels": [
+        1,
+        4,
+        8,
+        16,
+        32
+      ],
+      "feature": "32-tap FIR, 32 simultaneous output samples"
+    },
+    {
+      "name": "matvec64x64_u8",
+      "family": "matvec",
+      "size": 64,
+      "width": 8,
+      "expected_components": 8128,
+      "fault_levels": [
+        1,
+        8,
+        16,
+        32,
+        64
+      ],
+      "feature": "large matrix-vector array"
+    },
+    {
+      "name": "sumprod16x64_u8",
+      "family": "sumprod_bank",
+      "size": 64,
+      "banks": 16,
+      "width": 8,
+      "expected_components": 4080,
+      "fault_levels": [
+        1,
+        8,
+        16,
+        32,
+        64
+      ],
+      "feature": "full-carry pre-addition feeding unknown-factor products"
+    },
+    {
+      "name": "nl_ring16_u8",
+      "family": "ring",
+      "size": 16,
+      "width": 8,
+      "expected_components": 32,
+      "fault_levels": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "feature": "small shared bilinear ring"
+    },
+    {
+      "name": "nl_ring128_u16",
+      "family": "ring",
+      "size": 128,
+      "width": 16,
+      "expected_components": 256,
+      "fault_levels": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "feature": "wide shared bilinear ring"
+    },
+    {
+      "name": "nl_mesh16x16_u8",
+      "family": "mesh",
+      "size": 16,
+      "width": 8,
+      "expected_components": 1024,
+      "fault_levels": [
+        1,
+        4,
+        8,
+        16,
+        32
+      ],
+      "feature": "two-dimensional shared bilinear mesh and reconvergence"
+    }
+  ],
+  "fault_patterns_per_level": 3,
+  "observations_per_pattern": 3,
+  "logical_instances": 450,
+  "observation_mode": "independent single-observation weak component diagnosis",
+  "selection": "predeclared structural families; no solver performance filtering",
+  "injection": "permanent internal Boolean gate-output stuck-at faults distributed over distinct whole components",
+  "fault_recipes": [
+    "sa0_single",
+    "sa1_single",
+    "mixed_multi_2_to_3"
+  ],
+  "acceptance": "all selected components locally active on anchor input; every observation externally detectable; no optimum or runtime filter",
+  "arithmetic_generator": {
+    "repository": "https://github.com/ehw-fit/ariths-gen",
+    "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+    "version": "1.1.4"
+  },
+  "topology_origin": "project-composed; not an upstream ArithsGen benchmark suite",
+  "library": [
+    {
+      "module": "u_dadda_cla4",
+      "generator_class": "UnsignedDaddaMultiplier",
+      "width": 4,
+      "sha256": "a25a210c572da35b0e3d56dae610a385cd0f26fe441e1ee880734aec10a58d7a",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_arrmul8",
+      "generator_class": "UnsignedArrayMultiplier",
+      "width": 8,
+      "sha256": "40b5a9d6e97ac4b01b625e5acb5ddbeee59be4e464fc395d7fdadd4a13498ebf",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_arrmul16",
+      "generator_class": "UnsignedArrayMultiplier",
+      "width": 16,
+      "sha256": "16b9edefe0883c9074522955577eb7afc4c5d3b7ed2f9803cecf88ceb79c2534",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_arrmul32",
+      "generator_class": "UnsignedArrayMultiplier",
+      "width": 32,
+      "sha256": "d16efe2eedba1b7651d007b4b6dfc8ddf3cc9723630e4d7e5f36fff3dac07283",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_rca8",
+      "generator_class": "UnsignedRippleCarryAdder",
+      "width": 8,
+      "sha256": "0a768e1cecc23d6015d6d48e25d3bf5c028fdfa1c3a99d533c733d58a4982fff",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_rca16",
+      "generator_class": "UnsignedRippleCarryAdder",
+      "width": 16,
+      "sha256": "8eafa08314ec56e44ebb954fa8b200c51b33469c931b73e01bdeed507ca21898",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_rca32",
+      "generator_class": "UnsignedRippleCarryAdder",
+      "width": 32,
+      "sha256": "c8997c7dd3fc69ff2853204a1cf02104a34459e333f0183ec25736833f68b9c3",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    },
+    {
+      "module": "u_rca64",
+      "generator_class": "UnsignedRippleCarryAdder",
+      "width": 64,
+      "sha256": "072fbdc8ad91d11b6c9d86def8fa3a3b2258bd51328dbcd8eb107cc9a22e7547",
+      "commit": "2b5cc8f783b778043fdfca3d3f7e50a35cb69eaf",
+      "origin": "generated directly with pinned ArithsGen"
+    }
+  ],
+  "version": "1.0.0",
+  "release_date": "2026-10-05",
+  "physical_observation_files": 900,
+  "fixed_fault_configurations": 150,
+  "observation_numbering": "001-045 per circuit",
+  "observation_formats": [
+    "hexadecimal integers",
+    "top-level port bits"
+  ],
+  "dataset_license": "CC-BY-4.0",
+  "generated_library_license": "not specified by pinned upstream"
+}

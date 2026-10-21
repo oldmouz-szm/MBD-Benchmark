@@ -14,7 +14,7 @@ for base in (ROOT,ROOT/'supplement_v1'):
         assert sha(path)==expected,name
         seen.add(name);checked+=1
     if base!=ROOT:
-        actual={str(p.relative_to(base)) for p in base.rglob('*') if p.is_file() and p.name!='SHA256SUMS'}
+        actual={p.relative_to(base).as_posix() for p in base.rglob('*') if p.is_file() and p.name!='SHA256SUMS'}
         assert actual==seen
 registry=json.loads((ROOT/'datasets.json').read_text())
 combined=json.loads((ROOT/'all_instances.json').read_text())
